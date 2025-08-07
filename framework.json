@@ -1,0 +1,636 @@
+{
+  "metadata": {
+    "pillars": ["Technical", "Product_Strategy", "Behavioral", "Value_Delivery"],
+    "likert_scale": {
+      "1": "Nenhuma experiência ainda",
+      "2": "Básico / tutoriais",
+      "3": "Intermediário / pequenos projetos",
+      "4": "Avançado / produção",
+      "5": "Referência / mentoro outros"
+    },
+    "career_tracks": [
+      { 
+        "name": "Data Analyst",     
+        "weights": {"Technical": 50, "Product_Strategy": 20, "Behavioral": 20, "Value_Delivery": 10},
+        "minimums": {"Technical": 60, "Product_Strategy": 40, "Behavioral": 30, "Value_Delivery": 20} 
+      },
+      { 
+        "name": "MLOps Engineer",   
+        "weights": {"Technical": 60, "Product_Strategy": 10, "Behavioral": 15, "Value_Delivery": 15},
+        "minimums": {"Technical": 70, "Product_Strategy": 20, "Behavioral": 40, "Value_Delivery": 30} 
+      },
+      { 
+        "name": "AI Data Scientist",
+        "weights": {"Technical": 50, "Product_Strategy": 25, "Behavioral": 15, "Value_Delivery": 10},
+        "minimums": {"Technical": 75, "Product_Strategy": 50, "Behavioral": 40, "Value_Delivery": 30} 
+      },
+      { 
+        "name": "AI Engineer",      
+        "weights": {"Technical": 55, "Product_Strategy": 20, "Behavioral": 15, "Value_Delivery": 10},
+        "minimums": {"Technical": 70, "Product_Strategy": 40, "Behavioral": 35, "Value_Delivery": 25} 
+      }
+    ]
+  },
+  "questions": [
+    { 
+      "id": 1,  
+      "pillar": "Technical",        
+      "category": "Programming Fundamentals",
+      "question": "Qual é sua proficiência em escrever código Python de produção para tarefas de dados?",
+      "explanation": "Inclui estilo idiomático, testes, depuração e gestão de pacotes.",
+      "option_set": "Prog_Fundamentals",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 2,  
+      "pillar": "Technical",        
+      "category": "SQL & Databases",
+      "question": "Com que frequência você escreve consultas SQL avançadas (CTE, window functions, otimização)?",
+      "explanation": "Abrange modelagem relacional, índices e tuning de performance.",
+      "option_set": "Prog_Fundamentals",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 3,  
+      "pillar": "Technical",        
+      "category": "CLI / Bash",
+      "question": "Habilidade em Bash/CLI para automação de tarefas de dados e pipelines.",
+      "explanation": "Scripts shell, cron, manipulação de arquivos grandes.",
+      "option_set": "Prog_Fundamentals",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 4,  
+      "pillar": "Technical",        
+      "category": "Version Control",
+      "question": "Uso de Git (branching, PRs, rebase, CI gatilhado por commit).",
+      "explanation": "Boas práticas de revisão de código e fluxo Git-Flow / trunk-based.",
+      "option_set": "SW_Engineering",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 5,  
+      "pillar": "Technical",        
+      "category": "Containers",
+      "question": "Experiência com Docker para empacotar pipelines ou modelos.",
+      "explanation": "Criação de Dockerfiles eficientes, multi-stage builds, security scanning.",
+      "option_set": "SW_Engineering",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 6,  
+      "pillar": "Technical",        
+      "category": "Orchestration",
+      "question": "Proficiência em Kubernetes (deployments, Helm, autoscaling para workloads de ML).",
+      "explanation": "Inclui RBAC, serviços stateful e custo/recursos.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 7,  
+      "pillar": "Technical",        
+      "category": "Workflow Scheduling",
+      "question": "Configuração de DAGs no Apache Airflow ou similar.",
+      "explanation": "Inclui sensores, SLA miss callbacks e parametrização via Jinja.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 8,  
+      "pillar": "Technical",        
+      "category": "Big Data Processing",
+      "question": "Uso de Spark (PySpark/Scala) para ETL ou ML em larga escala.",
+      "explanation": "Particionamento, Catalyst optimizer e tuning de memória.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 9,  
+      "pillar": "Technical",        
+      "category": "Data Lineage & Catalog",
+      "question": "Implementou lineage e catálogo de dados (Amundsen, DataHub, etc.)?",
+      "explanation": "Rastreabilidade fim-a-fim, tags de sensibilidade e SLA.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 10, 
+      "pillar": "Technical",        
+      "category": "Feature Store",
+      "question": "Integração de Feature Store para reuso online/offline.",
+      "explanation": "Feast, Tecton ou equivalente, garantia de consistência de features.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 11, 
+      "pillar": "Technical",        
+      "category": "Experiment Tracking",
+      "question": "Uso de MLflow, Weights & Biases ou Comet para rastrear experimentos.",
+      "explanation": "Comparação de métricas, versionamento de parâmetros e artefatos.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 12, 
+      "pillar": "Technical",        
+      "category": "CI/CD de ML",
+      "question": "Construiu pipelines CI/CD para modelos (testes, build, deploy).",
+      "explanation": "Inclui validação de dados, smoke tests e rollback automático.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 13, 
+      "pillar": "Technical",        
+      "category": "Model Registry",
+      "question": "Gerenciou versões de modelos em registry (promover → staging → produção).",
+      "explanation": "Gatekeeping, aprovação manual e políticas de retenção.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 14, 
+      "pillar": "Technical",        
+      "category": "Monitoring & Observability",
+      "question": "Configurou alertas de drift e performance de modelos em produção.",
+      "explanation": "Prometheus, Grafana, Monte Carlo ou ferramentas internas.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 15, 
+      "pillar": "Technical",        
+      "category": "Cloud ML",
+      "question": "Experiência com serviços gerenciados (SageMaker, Vertex AI, Azure ML).",
+      "explanation": "Treinamento distribuído, endpoints serverless, pipelines gerenciados.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 16, 
+      "pillar": "Technical",        
+      "category": "Hypothesis Testing",
+      "question": "Domínio de testes estatísticos (t-test, χ², ANOVA, não-paramétricos).",
+      "explanation": "Escolha de teste, suposições, interpretação de p-valor e poder.",
+      "option_set": "Stats_ML",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 17, 
+      "pillar": "Technical",        
+      "category": "Regression Models",
+      "question": "Construção e validação de modelos de regressão (linear, logística, regularizada).",
+      "explanation": "Diagnóstico de multicolinearidade, interpretação de coeficientes.",
+      "option_set": "Stats_ML",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 18, 
+      "pillar": "Technical",        
+      "category": "Tree-based Methods",
+      "question": "Uso de Random Forest, XGBoost ou LightGBM em produção.",
+      "explanation": "Tuning de hiperparâmetros, importância de features, overfitting.",
+      "option_set": "Stats_ML",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 19, 
+      "pillar": "Technical",        
+      "category": "Deep Learning",
+      "question": "Implementou CNN/RNN/Transformers em frameworks (TensorFlow, PyTorch).",
+      "explanation": "Callbacks, data augmentation e fine-tuning.",
+      "option_set": "Stats_ML",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 20, 
+      "pillar": "Technical",        
+      "category": "Time Series",
+      "question": "Modelou séries temporais (ARIMA/SARIMA, Prophet, DeepAR).",
+      "explanation": "Estacionariedade, decomposição e intervalos de previsão.",
+      "option_set": "Stats_ML",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 21, 
+      "pillar": "Technical",        
+      "category": "LLM Prompt Engineering",
+      "question": "Criação de prompts, zero-shot / few-shot e chain-of-thought para LLMs.",
+      "explanation": "Mitigação de hallucinations, system vs user prompts.",
+      "option_set": "Stats_ML",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 22, 
+      "pillar": "Technical",        
+      "category": "Vector DB & RAG",
+      "question": "Construção de pipelines RAG com vetores (Pinecone, Weaviate, FAISS).",
+      "explanation": "Chunking, embeddings, similaridade e cache de contexto.",
+      "option_set": "Stats_ML",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 23, 
+      "pillar": "Product_Strategy", 
+      "category": "Problem Framing",
+      "question": "Consegue converter objetivos de negócio vagos em problemas analíticos claros?",
+      "explanation": "Uso de frameworks como Lean Canvas, JTBD ou 5 Porquês.",
+      "option_set": "Problem_Hypothesis",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 24, 
+      "pillar": "Product_Strategy", 
+      "category": "Hypothesis Design",
+      "question": "Formula hipóteses testáveis e define critérios de sucesso/fracasso?",
+      "explanation": "Variáveis, direção do efeito e nível de significância.",
+      "option_set": "Problem_Hypothesis",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 25, 
+      "pillar": "Product_Strategy", 
+      "category": "A/B Testing",
+      "question": "Projetou e executou testes A/B end-to-end (split, tracking, análise)?",
+      "explanation": "Inclui CUPED, sizing de amostra, correção de múltiplas comparações.",
+      "option_set": "Design_Causality",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 26, 
+      "pillar": "Product_Strategy", 
+      "category": "Causal Inference",
+      "question": "Aplicou métodos causais (PSM, Diff-in-Diff, causal graph) em projetos?",
+      "explanation": "Identificação de confounders, validade interna vs externa.",
+      "option_set": "Design_Causality",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 27, 
+      "pillar": "Product_Strategy", 
+      "category": "Metrics & KPIs",
+      "question": "Definição e implementação de métricas norteadoras e guardrails.",
+      "explanation": "North-star metrics, leading/lagging indicators, balanced scorecard.",
+      "option_set": "Metrics_KPIs",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 28, 
+      "pillar": "Product_Strategy", 
+      "category": "Roadmap Influence",
+      "question": "Participou ativamente da priorização do backlog de produtos de dados?",
+      "explanation": "Balanceamento de impacto de negócio, viabilidade técnica e custo.",
+      "option_set": "Roadmap_Influence",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 29, 
+      "pillar": "Product_Strategy", 
+      "category": "Stakeholder Management",
+      "question": "Comunicação efetiva com stakeholders de diferentes níveis (execs, PMs, devs)?",
+      "explanation": "Adaptação de linguagem, storytelling e gestão de expectativas.",
+      "option_set": "Storytelling",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 30, 
+      "pillar": "Product_Strategy", 
+      "category": "Data Storytelling",
+      "question": "Criação de narrativas claras e orientadas a impacto de negócio.",
+      "explanation": "Story arc, visualização interativa, exec pitch.",
+      "option_set": "Storytelling",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 31, 
+      "pillar": "Behavioral", 
+      "category": "Collaboration",
+      "question": "Trabalho colaborativo em equipes multidisciplinares (devs, PMs, designers).",
+      "explanation": "Pair programming, code review, feedback construtivo.",
+      "option_set": "Collab_Feedback",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 32, 
+      "pillar": "Behavioral", 
+      "category": "Knowledge Sharing",
+      "question": "Compartilhamento ativo de conhecimento e boas práticas.",
+      "explanation": "Brown-bags, documentação, mentoring de colegas.",
+      "option_set": "Mentoring_Sharing",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 33, 
+      "pillar": "Behavioral", 
+      "category": "Ownership",
+      "question": "Assume responsabilidade end-to-end por resultados de projetos analíticos.",
+      "explanation": "Planejamento, execução, acompanhamento pós-deploy.",
+      "option_set": "Ownership",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 34, 
+      "pillar": "Behavioral", 
+      "category": "Ethical AI",
+      "question": "Aplica princípios de ética e explicabilidade em modelos?",
+      "explanation": "Bias, fairness, transparência, governança de modelos.",
+      "option_set": "Ownership",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 35, 
+      "pillar": "Behavioral", 
+      "category": "Diversity & Inclusion",
+      "question": "Contribui para um ambiente inclusivo (divulgação de vieses, linguagem neutra)?",
+      "explanation": "Revisão de datasets, práticas de recrutamento inclusivo.",
+      "option_set": "Ownership",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 36, 
+      "pillar": "Behavioral", 
+      "category": "Learning Culture",
+      "question": "Promove cultura de learning-by-doing e melhoria contínua?",
+      "explanation": "Comunidades de prática, retros e OKRs de aprendizado.",
+      "option_set": "Mentoring_Sharing",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 37, 
+      "pillar": "Value_Delivery", 
+      "category": "Business Impact",
+      "question": "Projetos entregues geraram impacto mensurável (ROI, receita, custo, NPS)?",
+      "explanation": "Métricas aceitas por stakeholders e comparáveis a baseline.",
+      "option_set": "Project_Value",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 38, 
+      "pillar": "Value_Delivery", 
+      "category": "Scalability",
+      "question": "Soluções criadas foram reutilizadas por múltiplas squads/unidades?",
+      "explanation": "Design modular, documentação de onboarding.",
+      "option_set": "Scaling_Sustainability",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 39, 
+      "pillar": "Value_Delivery", 
+      "category": "Production Readiness",
+      "question": "Modelos foram colocados em produção com SLA de disponibilidade?",
+      "explanation": "Playbooks de incidentes, H/A, observabilidade.",
+      "option_set": "Scaling_Sustainability",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 40, 
+      "pillar": "Value_Delivery", 
+      "category": "Lifecycle Management",
+      "question": "Garantiu manutenção e atualização de modelos / pipelines pós-deploy?",
+      "explanation": "Retraining, deprecation, custos de infra.",
+      "option_set": "Scaling_Sustainability",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 41, 
+      "pillar": "Value_Delivery", 
+      "category": "Initiative Proactivity",
+      "question": "Propôs novas iniciativas analíticas de alto impacto sem ser solicitado?",
+      "explanation": "Oportunidades latentes de negócio.",
+      "option_set": "High_Impact",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 42, 
+      "pillar": "Value_Delivery", 
+      "category": "Scope Management",
+      "question": "Adaptou escopo para garantir valor sem comprometer cronograma/custo?",
+      "explanation": "Decisões de MVP, backlog cutting.",
+      "option_set": "Project_Value",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 43, 
+      "pillar": "Value_Delivery", 
+      "category": "Strategic Alignment",
+      "question": "Alinha entregas técnicas com objetivos estratégicos da organização?",
+      "explanation": "OKRs, scorecards executivos.",
+      "option_set": "Project_Value",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 44, 
+      "pillar": "Value_Delivery", 
+      "category": "Cost Efficiency",
+      "question": "Otimiza custo de computação/armazenamento em soluções de dados?",
+      "explanation": "FinOps, spot instances, off-peak training.",
+      "option_set": "Scaling_Sustainability",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 45, 
+      "pillar": "Value_Delivery", 
+      "category": "Compliance & Governance",
+      "question": "Atende exigências regulatórias (LGPD, AI Act, SOX) em projetos de dados?",
+      "explanation": "Auditoria, trilhas de auditoria, documentação controlada.",
+      "option_set": "Scaling_Sustainability",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 46, 
+      "pillar": "Value_Delivery", 
+      "category": "Timeline Estimation",
+      "question": "Estima e comunica prazos de forma realista, cumprindo compromissos?",
+      "explanation": "Buffer de risco, revisões periódicas.",
+      "option_set": "Project_Value",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 47, 
+      "pillar": "Value_Delivery", 
+      "category": "Change Management",
+      "question": "Coordena rollout de mudanças (treinamento, comunicação, suporte)?",
+      "explanation": "Estratégia big-bang vs incremental, material de apoio.",
+      "option_set": "High_Impact",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 48, 
+      "pillar": "Value_Delivery", 
+      "category": "Post-Deploy Tracking",
+      "question": "Acompanha performance e drift pós-implementação, acionando retraining?",
+      "explanation": "SLIs, SLOs, métricas de negócio pós-go-live.",
+      "option_set": "Scaling_Sustainability",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 49, 
+      "pillar": "Technical", 
+      "category": "Advanced ML",
+      "question": "Implementou técnicas avançadas de ML (GANs, RL, AutoML)?",
+      "explanation": "Modelos generativos, reinforcement learning, neural architecture search.",
+      "option_set": "Stats_ML",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 50, 
+      "pillar": "Technical", 
+      "category": "MLOps Architecture",
+      "question": "Desenhou arquiteturas MLOps end-to-end para organização?",
+      "explanation": "Infraestrutura como código, security by design, observabilidade.",
+      "option_set": "MLOps_Pipelines",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 51, 
+      "pillar": "Product_Strategy", 
+      "category": "Strategic Planning",
+      "question": "Contribuiu para planejamento estratégico de dados e IA na organização?",
+      "explanation": "Roadmap de 3-5 anos, investimentos, competências.",
+      "option_set": "Roadmap_Influence",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 52, 
+      "pillar": "Product_Strategy", 
+      "category": "Innovation Leadership",
+      "question": "Liderou iniciativas de inovação em dados e IA?",
+      "explanation": "POCs estratégicos, parcerias, thought leadership.",
+      "option_set": "High_Impact",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 53, 
+      "pillar": "Behavioral", 
+      "category": "Team Leadership",
+      "question": "Liderou equipes de dados e IA (tech lead, manager)?",
+      "explanation": "Gestão de pessoas, desenvolvimento de carreira, cultura.",
+      "option_set": "Mentoring_Sharing",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 54, 
+      "pillar": "Behavioral", 
+      "category": "Cross-functional Leadership",
+      "question": "Liderou iniciativas cross-funcionais envolvendo dados e IA?",
+      "explanation": "Coordenação entre áreas, gestão de stakeholders complexos.",
+      "option_set": "Ownership",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 55, 
+      "pillar": "Value_Delivery", 
+      "category": "Business Transformation",
+      "question": "Contribuiu para transformação digital através de dados e IA?",
+      "explanation": "Mudança de processos, cultura data-driven, ROI significativo.",
+      "option_set": "Project_Value",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 56, 
+      "pillar": "Value_Delivery", 
+      "category": "Global Impact",
+      "question": "Soluções implementadas tiveram impacto global na organização?",
+      "explanation": "Escala internacional, múltiplas unidades de negócio.",
+      "option_set": "Scaling_Sustainability",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 57, 
+      "pillar": "Technical", 
+      "category": "Research & Development",
+      "question": "Contribuiu para pesquisa e desenvolvimento em dados e IA?",
+      "explanation": "Publicações, patentes, colaboração acadêmica.",
+      "option_set": "Stats_ML",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 58, 
+      "pillar": "Product_Strategy", 
+      "category": "Industry Leadership",
+      "question": "Representou a organização em fóruns de dados e IA?",
+      "explanation": "Conferências, associações, thought leadership externo.",
+      "option_set": "High_Impact",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 59, 
+      "pillar": "Behavioral", 
+      "category": "Organizational Development",
+      "question": "Contribuiu para desenvolvimento organizacional em dados e IA?",
+      "explanation": "Estruturas, processos, cultura de dados.",
+      "option_set": "Mentoring_Sharing",
+      "user_rating": null, 
+      "manager_rating": null 
+    },
+    { 
+      "id": 60, 
+      "pillar": "Value_Delivery", 
+      "category": "Sustainable Innovation",
+      "question": "Criou capacidades sustentáveis de inovação em dados e IA?",
+      "explanation": "Estruturas duradouras, competências, cultura de inovação.",
+      "option_set": "Scaling_Sustainability",
+      "user_rating": null, 
+      "manager_rating": null 
+    }
+  ]
+}

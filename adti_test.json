@@ -1,0 +1,844 @@
+[
+    {
+        "P1": {
+            "Pergunta": "Eu prefiro planejar e estruturar soluções de dados antes de executar, em vez de começar a experimentar imediatamente.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DSTA",
+                "DVRT"
+            ]
+        },
+        "P2": {
+            "Pergunta": "Eu me sinto confortável executando tarefas de análise de dados passo a passo, sem uma visão estratégica definida.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DVRT",
+                "DSTA"
+            ]
+        },
+        "P3": {
+            "Pergunta": "Eu tenho mais satisfação ao definir métricas e KPIs do que em ajustar processos técnicos.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DSTA",
+                "DVRT"
+            ]
+        },
+        "P4": {
+            "Pergunta": "Eu prefiro experimentar rapidamente ferramentas e técnicas novas do que elaborar um plano detalhado antes.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DVRT",
+                "DSTA"
+            ]
+        },
+        "P5": {
+            "Pergunta": "Eu gosto de criar frameworks e processos antes de mergulhar nos dados.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DSTA",
+                "DVRT"
+            ]
+        },
+        "P6": {
+            "Pergunta": "Eu acho mais eficiente aprender fazendo, testando diretamente ferramentas ou recursos de dados.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DVRT",
+                "DSTA"
+            ]
+        },
+        "P7": {
+            "Pergunta": "Eu sinto que elaborar uma estratégia bem definida é a parte mais crucial de um projeto de dados.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DSTA",
+                "DVRT"
+            ]
+        },
+        "P8": {
+            "Pergunta": "Eu me sinto realizado ao encontrar a lógica por trás de um problema complexo, mais do que imaginar novas possibilidades.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DLOG",
+                "DVIS"
+            ]
+        },
+        "P9": {
+            "Pergunta": "Eu prefiro explorar novos modelos e teorias, mesmo que não tenham aplicações imediatas.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DVIS",
+                "DLOG"
+            ]
+        },
+        "P10": {
+            "Pergunta": "Eu fico fascinado com a lógica e matemática por trás dos modelos de IA.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DLOG",
+                "DVIS"
+            ]
+        },
+        "P11": {
+            "Pergunta": "Eu me empolgo mais ao visualizar soluções inovadoras do que ao analisar algoritmos existentes.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DVIS",
+                "DLOG"
+            ]
+        },
+        "P12": {
+            "Pergunta": "Eu gosto de debater conceitos abstratos e idealizar o futuro dos dados.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DVIS",
+                "DLOG"
+            ]
+        },
+        "P13": {
+            "Pergunta": "Eu prefiro resolver problemas concretos com métodos sólidos em vez de sonhar com soluções revolucionárias.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DLOG",
+                "DVIS"
+            ]
+        },
+        "P14": {
+            "Pergunta": "Eu aprecio a estrutura e o rigor dos algoritmos mais do que o potencial disruptivo de novas abordagens.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DLOG",
+                "DVIS"
+            ]
+        },
+        "P15": {
+            "Pergunta": "Eu prefiro trabalhar em equipe, construindo harmonia e colaborando com colegas.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOL",
+                "DSUP"
+            ]
+        },
+        "P16": {
+            "Pergunta": "Eu sinto satisfação ao ajudar meus colegas a visualizar e compreender dados complexos.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOL",
+                "DSUP"
+            ]
+        },
+        "P17": {
+            "Pergunta": "Eu prefiro apoiar emocionalmente e profissionalmente a equipe em vez de liderar um projeto.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DSUP",
+                "DCOL"
+            ]
+        },
+        "P18": {
+            "Pergunta": "Eu me sinto mais motivado quando posso servir de ponte entre departamentos, promovendo colaboração.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DSUP",
+                "DCOL"
+            ]
+        },
+        "P19": {
+            "Pergunta": "Eu gosto de criar dashboards visuais claros e narrativas fáceis para os stakeholders.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOL",
+                "DSUP"
+            ]
+        },
+        "P20": {
+            "Pergunta": "Eu me vejo como um mediador, buscando consenso e evitando conflitos.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOL",
+                "DSUP"
+            ]
+        },
+        "P21": {
+            "Pergunta": "Eu costumo preferir traduzir resultados técnicos para outros membros da equipe, ao invés de tomar decisões estratégicas.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DSUP",
+                "DCOL"
+            ]
+        },
+        "P22": {
+            "Pergunta": "Eu me preocupo mais com políticas de governança e ética de dados do que com a integração técnica dos sistemas.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DADV",
+                "DINT"
+            ]
+        },
+        "P23": {
+            "Pergunta": "Eu me sinto motivado a garantir que dados sejam usados de forma ética e em conformidade com a legislação.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DADV",
+                "DINT"
+            ]
+        },
+        "P24": {
+            "Pergunta": "Eu tenho mais interesse em assegurar a qualidade e integridade dos dados do que em conectar sistemas.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DADV",
+                "DINT"
+            ]
+        },
+        "P25": {
+            "Pergunta": "Eu gosto do desafio de conectar diferentes sistemas para que dados de várias fontes funcionem juntos.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DINT",
+                "DADV"
+            ]
+        },
+        "P26": {
+            "Pergunta": "Eu prefiro revisar processos e auditorias de dados do que criar pipelines de integração.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DADV",
+                "DINT"
+            ]
+        },
+        "P27": {
+            "Pergunta": "Eu me sinto realizado ao integrar soluções técnicas, permitindo maior colaboração entre equipes.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DINT",
+                "DADV"
+            ]
+        },
+        "P28": {
+            "Pergunta": "Eu me vejo defendendo melhores práticas de dados mais do que construindo soluções técnicas.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DADV",
+                "DINT"
+            ]
+        },
+        "P29": {
+            "Pergunta": "Eu prefiro liderar uma equipe de dados tomando decisões estratégicas e assertivas.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOM",
+                "DEXE"
+            ]
+        },
+        "P30": {
+            "Pergunta": "Eu me sinto mais confortável estabelecendo metas e prazos, acompanhando indicadores de desempenho.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DEXE",
+                "DCOM"
+            ]
+        },
+        "P31": {
+            "Pergunta": "Eu tenho facilidade em tomar decisões difíceis e orientar equipes diversificadas.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOM",
+                "DEXE"
+            ]
+        },
+        "P32": {
+            "Pergunta": "Eu me sinto mais motivado em organizar recursos e otimizar processos operacionais.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DEXE",
+                "DCOM"
+            ]
+        },
+        "P33": {
+            "Pergunta": "Eu gosto de conduzir reuniões para alinhar estratégias de dados e definir prioridades.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOM",
+                "DEXE"
+            ]
+        },
+        "P34": {
+            "Pergunta": "Eu sinto satisfação em garantir que projetos sejam entregues no prazo e dentro do escopo.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DEXE",
+                "DCOM"
+            ]
+        },
+        "P35": {
+            "Pergunta": "Eu prefiro estar no comando de um projeto do que gerenciar prazos e tarefas diárias.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOM",
+                "DEXE"
+            ]
+        },
+        "P36": {
+            "Pergunta": "Eu me empolgo mais com a exploração de novas tecnologias e tendências do que em motivar a equipe.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DINN",
+                "DPRO"
+            ]
+        },
+        "P37": {
+            "Pergunta": "Eu sinto que meu papel é sempre impulsionar a inovação na empresa, pesquisando novas soluções.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DINN",
+                "DPRO"
+            ]
+        },
+        "P38": {
+            "Pergunta": "Eu gosto de ter visão de longo prazo e descobrir oportunidades de inovação em IA.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DINN",
+                "DPRO"
+            ]
+        },
+        "P39": {
+            "Pergunta": "Eu me sinto realizado quando inspiro os outros a adotarem uma cultura de dados na organização.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DPRO",
+                "DINN"
+            ]
+        },
+        "P40": {
+            "Pergunta": "Eu prefiro desenvolver estratégias de inovação e promover iniciativas de cultura orientada por dados.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DINN",
+                "DPRO"
+            ]
+        },
+        "P41": {
+            "Pergunta": "Eu me vejo como um explorador de tecnologias emergentes mais do que um motivador de equipe.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DINN",
+                "DPRO"
+            ]
+        },
+        "P42": {
+            "Pergunta": "Eu me identifico mais com a criação de estratégias inovadoras do que com a promoção da cultura de dados em toda a empresa.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DINN",
+                "DPRO"
+            ]
+        },
+        "P43": {
+            "Pergunta": "Eu gosto de criar novas soluções de dados e explorar projetos experimentais.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCRT",
+                "DCOMM"
+            ]
+        },
+        "P44": {
+            "Pergunta": "Eu me sinto mais satisfeito ao contar histórias com dados do que ao criar modelos novos.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOMM",
+                "DCRT"
+            ]
+        },
+        "P45": {
+            "Pergunta": "Eu prefiro experimentar e prototipar novos algoritmos em vez de traduzir resultados para os stakeholders.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCRT",
+                "DCOMM"
+            ]
+        },
+        "P46": {
+            "Pergunta": "Eu me sinto empolgado ao transformar dados complexos em narrativas envolventes.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOMM",
+                "DCRT"
+            ]
+        },
+        "P47": {
+            "Pergunta": "Eu me identifico mais com a curiosidade e experimentação do que com a comunicação clara dos resultados.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCRT",
+                "DCOMM"
+            ]
+        },
+        "P48": {
+            "Pergunta": "Eu gosto de conceber novos produtos baseados em dados em vez de compartilhar histórias claras sobre os dados.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCRT",
+                "DCOMM"
+            ]
+        },
+        "P49": {
+            "Pergunta": "Eu me vejo mais como criador de soluções inovadoras do que como comunicador eficaz de insights.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCRT",
+                "DCOMM"
+            ]
+        },
+        "P50": {
+            "Pergunta": "Eu me sinto motivado a explorar oportunidades de negócios baseadas em dados, mesmo com riscos envolvidos.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DENT",
+                "DACT"
+            ]
+        },
+        "P51": {
+            "Pergunta": "Eu prefiro trabalhar em projetos que causem impacto social positivo, defendendo ética e responsabilidade.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DACT",
+                "DENT"
+            ]
+        },
+        "P52": {
+            "Pergunta": "Eu me empolgo ao testar novas ideias de startups de dados, buscando inovação e agilidade.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DENT",
+                "DACT"
+            ]
+        },
+        "P53": {
+            "Pergunta": "Eu me sinto mais inclinado a lutar pela privacidade e pelos direitos dos usuários do que a lançar produtos novos.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DACT",
+                "DENT"
+            ]
+        },
+        "P54": {
+            "Pergunta": "Eu gosto de mover-se rapidamente para lançar projetos inovadores, mesmo sem garantia de sucesso.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DENT",
+                "DACT"
+            ]
+        },
+        "P55": {
+            "Pergunta": "Eu me preocupo em garantir que os dados sejam usados de forma justa e responsável.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DACT",
+                "DENT"
+            ]
+        },
+        "P56": {
+            "Pergunta": "Eu me vejo mais como alguém que busca oportunidades de crescimento rápido do que como um defensor dos usuários e do uso ético dos dados.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DENT",
+                "DACT"
+            ]
+        },
+        "P57": {
+            "Pergunta": "Eu gosto de trabalhar com dados de forma autônoma, em vez de compartilhar responsabilidades com a equipe.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DCOL",
+                "DSUP"
+            ]
+        },
+        "P58": {
+            "Pergunta": "Eu acho mais importante entregar resultados rapidamente do que estruturar bem cada etapa do processo.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DVRT",
+                "DSTA"
+            ]
+        },
+        "P59": {
+            "Pergunta": "Eu me sinto mais confortável com projetos de longo prazo que precisam de planejamento cuidadoso do que com desafios curtos e dinâmicos.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DSTA",
+                "DVRT"
+            ]
+        },
+        "P60": {
+            "Pergunta": "Eu prefiro a estabilidade de projetos planejados do que a liberdade de explorar novos caminhos sem tanto planejamento.",
+            "Valores": [
+                "Discordo totalmente",
+                "Discordo",
+                "Indiferente (neutro)",
+                "Concordo",
+                "Concordo totalmente"
+            ],
+            "Dicotomias": [
+                "DVRT",
+                "DSTA"
+            ]
+        }
+    }
+]
